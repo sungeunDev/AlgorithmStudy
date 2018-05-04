@@ -13,7 +13,9 @@ class ThirdProblem: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("third")
-        print(third(str: "asdf12nmd46kj[]r596029"))
+//        print(third(str: "asdf12nmd46kj[]r596029"))
+        
+        third2(str: "asdfqwepr23419®9")
     }
 }
 
@@ -41,10 +43,22 @@ extension ThirdProblem {
         return returnResult
     }
     
+    
+    // 2차 시도. 정답!!
+    // String.characters >> String 문자의 character 배열 값.
+    // String.characters.indices >> 해당 character의 index 배열 값. -> for문 활용하여 str[idx]로 해당 character 이용 가능.
     func third2(str: String) -> Int {
         
-        
-        
-        return 3
+        var returnResult = 0
+        for idx in str.characters.indices {
+            if let num = Int(String(str[idx])) {
+                if num % 2 != 0 {
+                    returnResult += num * num
+                    print("num: ", num, "returnResult: ", returnResult)
+                }
+            }
+        }
+        print(returnResult)
+        return returnResult
     }
 }
