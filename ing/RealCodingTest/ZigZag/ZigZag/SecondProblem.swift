@@ -13,6 +13,8 @@ class SecondProblem: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("second")
+        
+        parsing(str: "AM 10:12:34", idx: 0)
     }
 }
 
@@ -22,3 +24,51 @@ class SecondProblem: UIViewController {
  -. N은 200,000 이하인 자연수
  -. Date 관련 클래스 사용하지 말 것
  ***************************************************/
+
+extension SecondProblem {
+    func second(str: String, n: Int) -> String {
+        var returnResult = ""
+        
+        let dayCheck = 0
+        let hourCheck = 3
+        let minCheck = 6
+        let secCheck = 9
+        
+        let hour = Int(parsing(str: str, idx: hourCheck))!
+        let min = Int(parsing(str: str, idx: minCheck))!
+        let sec = Int(parsing(str: str, idx: secCheck))!
+        
+        let dayStr = parsing(str: str, idx: dayCheck)
+        
+        // 초 단위로 시간 바꾸기
+        var time = min * 60 + sec
+        
+        if dayStr == "AM" {
+            time += hour * 3600
+        } else if dayStr == "PM" {
+            time += (hour + 12) * 3600
+        }
+        
+        // N 초 더하기
+        time += n
+        
+        // 24시간 형태로 변환하기
+
+        
+        return returnResult
+    }
+    
+    func parsing(str: String, idx: Int) -> String {
+//        var returnResult = ""
+        let subStr = str[str.index(str.startIndex, offsetBy: idx)...str.index(str.startIndex, offsetBy: idx+1)]
+//        print(returnResult)
+        return String(subStr)
+    }
+    
+    // 초 -> 24시간 형태
+    func change24Time(of sec: Int) -> String {
+        
+        
+        return ""
+    }
+}
