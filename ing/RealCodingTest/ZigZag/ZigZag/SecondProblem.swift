@@ -13,8 +13,7 @@ class SecondProblem: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("second")
-        
-        parsing(str: "AM 10:12:34", idx: 0)
+        print(second(str: "AM 23:59:50", n: 10))
     }
 }
 
@@ -27,7 +26,7 @@ class SecondProblem: UIViewController {
 
 extension SecondProblem {
     func second(str: String, n: Int) -> String {
-        var returnResult = ""
+        
         
         let dayCheck = 0
         let hourCheck = 3
@@ -53,22 +52,49 @@ extension SecondProblem {
         time += n
         
         // 24시간 형태로 변환하기
-
-        
-        return returnResult
+        return change24Time(of: time)
     }
     
+    
     func parsing(str: String, idx: Int) -> String {
-//        var returnResult = ""
         let subStr = str[str.index(str.startIndex, offsetBy: idx)...str.index(str.startIndex, offsetBy: idx+1)]
-//        print(returnResult)
         return String(subStr)
     }
     
-    // 초 -> 24시간 형태
+    
+    // 초 -> 24시간 형태로 변환
     func change24Time(of sec: Int) -> String {
         
+        let second = sec % 60
+        let minute = (sec / 60) % 60
+        var hour = sec / 3600
         
-        return ""
+        while hour >= 24 {
+            hour -= 24
+        }
+        
+        var secStr = ""
+        var minStr = ""
+        var hourStr = ""
+        
+        if second < 10 {
+            secStr = "0\(second)"
+        } else {
+            secStr = "\(second)"
+        }
+        
+        if  minute < 10 {
+            minStr = "0\(minute)"
+        } else {
+            minStr = "\(minute)"
+        }
+        
+        if hour < 10 {
+            hourStr = "0\(hour)"
+        } else {
+            hourStr = "\(hour)"
+        }
+        
+        return "\(hourStr):\(minStr):\(secStr)"
     }
 }
