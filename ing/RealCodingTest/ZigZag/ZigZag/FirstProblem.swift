@@ -16,7 +16,7 @@ class FirstProblem: UIViewController {
         self.view.backgroundColor = .white
         
         
-        minBeautifulYear(of: 1987)
+        print(minBeautifulYear(of: 1111))
     }
 }
 
@@ -30,35 +30,27 @@ extension FirstProblem {
     
     func minBeautifulYear(of year: Int) -> Int {
         
-        // 1. year 가 아름다운 연도인지 체크
-        var yearCopy = year
+        // 1. year+1 가 아름다운 연도인지 체크
+        var yearCopy = year+1
         var yearList: [Int] = []
-        
+
         while yearCopy > 0 {
             yearList.append(yearCopy%10)
             yearCopy /= 10
         }
-        
-        for num in yearList {
-            let bool = yearList.contains(num)
+
+        for idx in 0..<yearList.count-1 {
             
+            // 2. 아니라면 year + 1를 재귀함수로 return
+            for j in idx+1..<yearList.count {
+                if yearList[idx] == yearList[j] {
+                    return minBeautifulYear(of: year+1)
+                }
+            }
         }
         
-        // 2. 아니라면 year + 1 한 후 return 재귀함수
-        // 3. 맞으면 해당 year를 return
-        
-        print(yearList)
-        print(yearCopy)
-        
-        return 9
-    }
-    
-    func twice() {
-        
-        let year = 1987
-        let numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-        
-        
+        // 3. 맞으면 해당 year+1를 return
+        return year+1
     }
 }
 
