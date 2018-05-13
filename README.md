@@ -1,3 +1,6 @@
 # AlgorithmStudy
 
-modify test
+- done  
+-. zigzag (3 problems)
+
+- ing
