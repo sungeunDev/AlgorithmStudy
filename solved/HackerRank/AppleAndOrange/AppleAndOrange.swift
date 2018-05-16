@@ -3,6 +3,23 @@ import Foundation
 // function declaration
 func countApplesAndOranges(s: Int, t: Int, a: Int, b: Int, apples: [Int], oranges: [Int]) -> Void {
 
+var appleCount = 0
+var orangeCount = 0
+
+for apple in apples {
+	if apple >= s-a && apple <= t-a {
+	appleCount += 1
+	}
+} 
+
+for orange in oranges {
+        if orange >= s-b && orange <= t-b {
+        orangeCount += 1
+        }
+}
+
+print(appleCount)
+print(orangeCount)
 }
 
 let num = 5
