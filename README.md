@@ -18,7 +18,7 @@
     > | 4 | [Taum and B'day](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/TaumAndBDay) | Algorithm | Implementation | Easy |
     > | 5 | [Balanced Brackets](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/BalancedBrackets) | Data Structures | Stacks | Medium |
     > | 6 | [Super Reduced String]() | Algorithm | Strings | Easy |
-    > | 7 | [-]() | Algorithm | Implementation | Easy |
+    > | 7 | [2D Array]() | Data Structures | Arrays | Easy |
     > | 8 | [-]() | Algorithm | Implementation | Easy |
 
 
