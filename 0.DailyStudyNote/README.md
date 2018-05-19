@@ -10,6 +10,7 @@
 - Orientation
 - 알고리즘 문제 - Warm Up 10개 풀기
 - 터미널로 Swift compile 해보기
+- [노트](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180515.md)
     
 #### - Week 1-2. 2018-05-17 (Thu)
 - 이론 - Important links
@@ -17,7 +18,7 @@
     - [Algorithm design techniques]()
 
 - 알고리즘 풀이
-    - [노트]()
+    - [노트](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180517.md)
 
 
 

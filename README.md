@@ -6,8 +6,8 @@
 ## History
 - **1st Week**
     - Study Note  
-    -. [2018-05-15]()  
-    -. [2018-05-17]()    
+    -. [2018-05-15](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180515.md)  
+    -. [2018-05-17](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180517.md)    
 
     - Solved Algorithm
     > | Index | Problem Title | Category | Sub-Category | Level |
