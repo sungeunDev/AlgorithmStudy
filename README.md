@@ -12,13 +12,13 @@
     - Solved Algorithm
     > | Index | Problem Title | Category | Sub-Category | Level |
     > | :--- | :--- | :--- | :--- | :--- |
-    > | 1 | [Apple And Orange](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/AppleAndOrange) | Algorithm | Implementation | Easy |
-    > | 2 | [Breaking the Records](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/BreakTheRecords) | Algorithm | Implementation | Easy |
-    > | 3 | [Cats and a Mouse](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/CatsAndAMouse) | Algorithm | Implementation | Easy |
-    > | 4 | [Taum and B'day](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/TaumAndBDay) | Algorithm | Implementation | Easy |
-    > | 5 | [Balanced Brackets](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/BalancedBrackets) | Data Structures | Stacks | Medium |
-    > | 6 | [Super Reduced String]() | Algorithm | Strings | Easy |
-    > | 7 | [2D Array]() | Data Structures | Arrays | Easy |
+    > | 1 | [Apple And Orange](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/1.AppleAndOrange) | Algorithm | Implementation | Easy |
+    > | 2 | [Breaking the Records](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/2.BreakTheRecords) | Algorithm | Implementation | Easy |
+    > | 3 | [Cats and a Mouse](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/3.CatsAndAMouse) | Algorithm | Implementation | Easy |
+    > | 4 | [Taum and B'day](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/4.TaumAndBDay) | Algorithm | Implementation | Easy |
+    > | 5 | [Balanced Brackets](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/5.BalancedBrackets) | Data Structures | Stacks | Medium |
+    > | 6 | [Super Reduced String](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/6.SuperReducedString) | Algorithm | Strings | Easy |
+    > | 7 | [2D Array](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/7.2DArray) | Data Structures | Arrays | Easy |
     > | 8 | [-]() | Algorithm | Implementation | Easy |
 
 
@@ -31,7 +31,7 @@
     
     > | Index | Problem Title | Category | Number of Problems | Time |
     > | :--- | :--- | :--- | :--- | :--- |
-    > | 0 | [ZigZag](https://github.com/sungeunDev/AlgorithmStudy/tree/master/solved/HackerRank/AppleAndOrange) | Coding Test | 3 | 3 hours |
+    > | 0 | [ZigZag](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/0.ZigZag) | Coding Test | 3 | 3 hours |
 
 
 
