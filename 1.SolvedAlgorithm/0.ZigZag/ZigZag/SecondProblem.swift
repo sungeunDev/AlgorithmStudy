@@ -22,6 +22,8 @@ class SecondProblem: UIViewController {
  -. 12시간 단위로 표시된 (예: "AM hh:mm:ss") 현재 시각 P와 N이 매개변수로 주어졌을 때, N초 후의 시간을 24시간 단위 표시의 string형으로 return
  -. N은 200,000 이하인 자연수
  -. Date 관련 클래스 사용하지 말 것
+ 
+ // " ", ":" 로 뜯어낼 수도 있음.
  ***************************************************/
 
 extension SecondProblem {

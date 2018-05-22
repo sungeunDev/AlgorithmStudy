@@ -1,5 +1,6 @@
-# Big-O Notation
+# Basic
 
+## Big-O Notation
 
 Big-O | Name | Description
 ------| ---- | -----------
