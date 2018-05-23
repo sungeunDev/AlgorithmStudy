@@ -9,6 +9,7 @@
     -. [2018-05-15](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180515.md)  
     -. [2018-05-17](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180517.md)    
 
+
     - Solved Algorithm
     > | Index | Problem Title | Category | Sub-Category | Level |
     > | :--- | :--- | :--- | :--- | :--- |
@@ -19,10 +20,13 @@
     > | 5 | [Balanced Brackets](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/5.BalancedBrackets) | Data Structures | Stacks | Medium |
     > | 6 | [Super Reduced String](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/6.SuperReducedString) | Algorithm | Strings | Easy |
     > | 7 | [2D Array](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/7.2DArray) | Data Structures | Arrays | Easy |
-    > | 8 | [-]() | Algorithm | Implementation | Easy |
-
 
 - **2nd Week**
+    - Study Note  
+    -. [2018-05-22](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180522.md)  
+    -. [2018-05-24]()  
+
+
 - **3rd Week**
 - **4th Week**
 
@@ -36,6 +40,33 @@
 
 
 ## Theory
+
+### Data Structure
+- Variations on arrays
+    + Array2D
+    + Bit Set
+- Queues
+    + [Stack](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/Stack.swift)
+    + [Queue](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/Queue.swift)
+- Lists
+    + Linked List
+    + Double Linked List
+- Trees
+    + [Tree](https://github.com/sungeunDev/AlgorithmStudy/tree/master/2.Theory/DataStructures/Tree)
+    + Binary Tree
+    + [Binary Search Tree (BST)](https://github.com/sungeunDev/AlgorithmStudy/tree/master/2.Theory/DataStructures/BinarySearchTree)
+    + Red-Black Tree
+    + Heap
+- Hashing
+- Sets
+- Graphs
+    + Graph
+    + Breadth-First Search (BFS)
+    + Depth-First Search (DFS)
+    + Minimum Spanning Tree
+        + Dijksctra's shortest path algorithm
+        + Prim 
+- Puzzles
 
 
 
