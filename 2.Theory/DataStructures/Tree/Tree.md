@@ -11,9 +11,12 @@
 - powering prefix matching in text fields
 
 ## ㅁ 용어
-- Root : 0th level’s node of a tree. 트리 구조의 시작점
-- Node : a block of data in the tree structure. root는 node이기도 함.
-- Leaf : a node with no children. (= terminal node)
+- Root: 0th level’s node of a tree. 트리 구조의 시작점
+- Node: a block of data in the tree structure. root는 node이기도 함.
+- Leaf: a node with no children. (= terminal node)
+
+- Height of the tree: number of links between the root node and the lowest leaf. 
+- Depth of a node: The number of links between this node and the root node
 
 ## ㅁ Implementation in Swift
 - general-purpose tree
@@ -108,6 +111,9 @@ extension Node: CustomStringConvertible {
 print(beverages)
 // beverages {hot {tea {black, green, chai} , coffee, cocoa} , cold}
 
+print(blackTea.parent)
+print(blackTea.parent!.parent)
+
 
 /***************************************************
  Search
@@ -140,6 +146,9 @@ if let SearchHot = beverages.search(value: "hot") {
 
 // Generic - Case (value: Int) Test
 let number = Node(value: 5)
+let testNum = Node(value: 3)
+number.add(child: testNum)
+
 print(number)
 ```
 
