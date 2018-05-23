@@ -78,10 +78,12 @@ public class BinarySearchClass<T: Comparable> {
             }
         }
     }
+    
+    // Search
+    public func search(value: T) -> BinarySearchClass? {
+        
+    }
 }
-
-let tree = BinarySearchClass<Int>(array: [5, 5, 7, 10, 1, 3, 8, 5, 6, 7, 7, 4, 4, 5])
-
 
 extension BinarySearchClass: CustomStringConvertible {
     public var description: String {
@@ -97,6 +99,8 @@ extension BinarySearchClass: CustomStringConvertible {
     }
 }
 
-
+let tree = BinarySearchClass<Int>(array: [5, 5, 7, 10, 1, 3, 8, 5, 6, 7, 7, 4, 4, 5])
 print(tree)
+
+
 
