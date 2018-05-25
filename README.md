@@ -24,8 +24,12 @@
 - **2nd Week**
     - Study Note  
     -. [2018-05-22](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180522.md)  
-    -. [2018-05-24]()  
+    -. [2018-05-24](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180524.md)  
 
+    - Solved Algorithm
+    > | Index | Problem Title | Category | Sub-Category | Level |
+    > | :--- | :--- | :--- | :--- | :--- |
+    > | 8 | [Chocolate Feast](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/8.ChocolateFeast) | Algorithm | Implementation | Easy |
 
 - **3rd Week**
 - **4th Week**
