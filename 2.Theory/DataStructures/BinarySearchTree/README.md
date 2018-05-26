@@ -41,10 +41,12 @@ indirect enum BinaryTree<T> {
 ```
 Getters와 Setters
 상수와 변수, 속성 그리고 서브스크립트를 위한 getter와 setter는 자동적으로 상수, 변수, 속성 또는 서브스크립트가와 같은 접근 레벨을 받는다.
+setter는 대응하는 getter보다 더 낮은 접근 수준을 가지며, 변수, 속성, 또는 서브스크립트의 읽기-쓰기 범위를 제한한다. 
+var 또는 subscript 소개자 앞에 private(set) 또는 internal(set)으로 낮은 접근 수준을 할당한다.
+이 규칙은 저장 속성 뿐만 아니라 계산 속성에도 적용된다. 심지어 저장 속성을 위한 명시적인 getter와 setter를 쓰지 않더라도 말이다. 
+Swift는 계속 저장 속성의 백업 저장공간을 접근하기 위한 암시적인 getter와 setter로 종합한다. 
 
-setter는 대응하는 getter보다 더 낮은 접근 수준을 가지며, 변수, 속성, 또는 서브스크립트의 읽기-쓰기 범위를 제한한다. var 또는 subscript 소개자 앞에 private(set) 또는 internal(set)으로 낮은 접근 수준을 할당한다.
-
-이 규칙은 저장 속성 뿐만 아니라 계산 속성에도 적용된다. 심지어 저장 속성을 위한 명시적인 getter와 setter를 쓰지 않더라도 말이다. Swift는 계속 저장 속성의 백업 저장공간을 접근하기 위한 암시적인 getter와 setter로 종합한다. 계산 속성에 명시적인 setter와 같은 방법으로 private(set)과 internal(set)이 합쳐진 setter의 접근 수준을 변경하는데 사용한다.
+계산 속성에 명시적인 setter와 같은 방법으로 private(set)과 internal(set)이 합쳐진 setter의 접근 수준을 변경하는데 사용한다.
 ```
 
 
@@ -58,12 +60,12 @@ setter는 대응하는 getter보다 더 낮은 접근 수준을 가지며, 변�
 - assert VS. precondition : [Link](http://seorenn.blogspot.kr/2016/05/swift-assertion.html)
 ```
 < 정리 > 
-assert() 와 assertionFailure() 함수는 디버그 모드(-Onone)에서만 동작(Evaluation)한다. 즉 assert() 와 assertionFailure() 는 릴리즈 모드(-Ofast)에서는 아무런 역할을 하지 않는다.
-
-precondition() 과 preconditionFailure() 함수는 디버그(-Onone)나 릴리즈(-Ofast) 모드를 가리지 않고 항상 체크한다. 즉, 릴리즈로 빌드된 경우에도 예외상황이 발생한 위치와 함께 메시지도 확인 가능하다.
+assert() 와 assertionFailure() 함수는 디버그 모드(-Onone)에서만 동작(Evaluation)한다. 
+즉 assert() 와 assertionFailure() 는 릴리즈 모드(-Ofast)에서는 아무런 역할을 하지 않는다.
+precondition() 과 preconditionFailure() 함수는 디버그(-Onone)나 릴리즈(-Ofast) 모드를 가리지 않고 항상 체크한다. 
+즉, 릴리즈로 빌드된 경우에도 예외상황이 발생한 위치와 함께 메시지도 확인 가능하다.
 
 따라서 assert() 의 경우 개발 과정에서 마구 쓰더라도 실제 프로덕션 단계의 앱의 성능에는 영향을 끼치지 않으니 걱정할 필요가 없다라고 결론 낼 수 있다.
-
 ```
 
 
