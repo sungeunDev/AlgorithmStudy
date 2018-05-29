@@ -1,5 +1,8 @@
 all:
-	swiftc -o testing ../main.swift ../LinkedList/*.swift
+	swiftc -o testing test/main.swift ../LinkedList/*.swift
 
 run:
 	./testing
+
+edit:
+	vi Makefile
