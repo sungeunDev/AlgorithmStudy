@@ -157,11 +157,11 @@ print(number)
 Maybe you only need to give each node a maximum of two children - such a tree is called a binary tree.  
 A very common type of tree is the binary search tree (or BST), a stricter version of a binary tree where the nodes are ordered in a particular way to speed up searches.
 ```
-
 - Binary Search Tree
 - Binary Tree
 - Minimum Spanning Tree (unweighted)
 - Red-Black Tree
+```
 
 <br>
 
