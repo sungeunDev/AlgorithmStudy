@@ -34,7 +34,7 @@ func solve(n: Int, c: [Int]) {
 
 
 // Solution 01. Recursive algorithm
-func recursive(n: Int, c: [Int]) -> Int {
+func recursive(n: Int, c: inout [Int]) -> Int {
 
 	// defer {
 	// print(n, c)
@@ -47,11 +47,12 @@ func recursive(n: Int, c: [Int]) -> Int {
 	} else {
 		var i = 0
 		if (n-c[0]) >= 0 {
-			i = recursive(n: n-c[0], c: c)
+			i = recursive(n: n-c[0], c: &c)
 		}
-		var array = c
-		array.removeFirst()
-		return i + recursive(n: n, c: array)
+		// var array = c
+		// array.removeFirst()
+		c.removeFirst()
+		return i + recursive(n: n, c: &c)
 	}
 }
 
@@ -59,7 +60,9 @@ func recursive(n: Int, c: [Int]) -> Int {
 // Main
 // solve(n: 8, c: [2, 3, 5, 8])
 print("input => n: 6, c: [1, 2, 3]")
-print(recursive(n: 6, c: [1, 2, 3]))
+var sample1 = [1, 2, 3]
+print(recursive(n: 6, c: &sample1))
 
 print("input => n: 10, c: [2, 5, 3, 6]")
-print(recursive(n: 10, c: [2, 5, 3, 6]))
+var sample2 = [2, 5, 3, 6]
+print(recursive(n: 10, c: &sample2))
