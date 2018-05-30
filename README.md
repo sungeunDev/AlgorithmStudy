@@ -30,8 +30,15 @@
     > | Index | Problem Title | Category | Sub-Category | Level |
     > | :--- | :--- | :--- | :--- | :--- |
     > | 8 | [Chocolate Feast](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/8.ChocolateFeast) | Algorithm | Implementation | Easy |
+    > | 9 | [Kangaroo](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/9.Kangaroo) | Algorithm | Implementation | Easy |
+    > | 10 | [DayOfTheProgrammer](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/10.DayOfTheProgrammer) | Algorithm | Implementation | Easy |
 
 - **3rd Week**
+   - Study Note  
+    -. [2018-05-29](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180529.md)  
+    -. [2018-05-31]()
+
+
 - **4th Week**
 
 - **Etc**
@@ -50,11 +57,11 @@
     + Array2D
     + Bit Set
 - Queues
-    + [Stack](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/Stack.swift)
-    + [Queue](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/Queue.swift)
+    + [Stack](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/Stack/Stack.swift)
+    + [Queue](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/Queue/Queue.swift)
 - Lists
-    + Linked List
-    + Double Linked List
+    + [Linked List](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/LinkedList/LinkedList.swift)
+    + [Double Linked List]((https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/LinkedList/DoublyLinkedList.swift)
 - Trees
     + [Tree](https://github.com/sungeunDev/AlgorithmStudy/tree/master/2.Theory/DataStructures/Tree)
     + Binary Tree
