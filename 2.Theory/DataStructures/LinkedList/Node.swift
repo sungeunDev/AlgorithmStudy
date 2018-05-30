@@ -7,7 +7,7 @@ public class Node<Value> {
     public init(value: Value, next: Node? = nil) {
         self.value = value
         self.next = next
-        next.previous = self
+        next?.previous = self
     }
 
     public init(value: Value) {

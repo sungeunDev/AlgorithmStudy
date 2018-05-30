@@ -52,13 +52,18 @@ public class QueueLinkedList<T>: Queue {
     return list.first?.value
   }
 
-  public mutating func enqueue(_ element: T) -> Bool {
+  @discardableResult
+  public func enqueue(_ element: T) -> Bool {
     list.append(element)
     return true
   }
 
-  public mutating func dequeue() -> T? {
+  @discardableResult
+  public func dequeue() -> T? {
+    guard !list.isEmpty,
+    let element = list.first else { return nil } // 왜 때문에 2번 체크? guard let element ~ 만 해도 될텐디..
 
+    return list.remove(element)
   }
 }
 
