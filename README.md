@@ -36,7 +36,7 @@
 - **3rd Week**
    - Study Note  
     -. [2018-05-29](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180529.md)  
-    -. [2018-05-31]()
+    -. [2018-05-31](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180531.md)
 
 
 - **4th Week**
