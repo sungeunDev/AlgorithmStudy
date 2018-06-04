@@ -11,12 +11,17 @@
 - powering prefix matching in text fields
 
 ## ㅁ 용어
-- Root: 0th level’s node of a tree. 트리 구조의 시작점
-- Node: a block of data in the tree structure. root는 node이기도 함.
-- Leaf: a node with no children. (= terminal node)
+- Root
+> : 0th level’s node of a tree. 트리 구조의 시작점
+- Node
+> : a block of data in the tree structure. root는 node이기도 함.
+- Leaf
+> : a node with no children. (= terminal node)
 
-- Height of the tree: number of links between the root node and the lowest leaf. 
-- Depth of a node: The number of links between this node and the root node
+- Height of the tree
+> : number of links between the root node and the lowest leaf. 
+- Depth of a node
+> : The number of links between this node and the root node
 
 ## ㅁ Implementation in Swift
 - general-purpose tree
@@ -152,6 +157,15 @@ number.add(child: testNum)
 print(number)
 ```
 
+
+### ㅁ Traversal algorithms
+- Depth-first traversal
+> a technique that starts at the root and visits node as deep as it can before backtracking.
+
+- Level-order traversal
+> a technique that visits each node of the tree based on the depth of the nodes.
+
+
 ### ㅁ Other Trees 
 > Sometimes you don't need to have a parent property at all.  
 Maybe you only need to give each node a maximum of two children - such a tree is called a binary tree.  
@@ -167,3 +181,5 @@ A very common type of tree is the binary search tree (or BST), a stricter versio
 
 ## ㅁ Source
 - [Raywenderlich - Swift Algorithm Club: Swift Tree Data Structure](https://www.raywenderlich.com/138190/swift-algorithm-club-swift-tree-data-structure)
+
+- Raywenderlish - Data Structures & Algorithms in Swift (iBooks)

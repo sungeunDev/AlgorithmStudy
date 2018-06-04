@@ -5,34 +5,73 @@
 
 - A binary tree is a tree where each node has 0, 1, or 2 children. The important bit is that 2 is the max – that’s why it’s binary.
 
-## ㅁ 용어
-- Left Child : The left child descends from the left side
-
+### ㅇ 용어
+- Left Child 
+> -. The left child descends from the left side.  
+> -. The value of a left child must be less than the value of its parent.  
+> 
 > ![left](https://koenig-media.raywenderlich.com/uploads/2016/08/BinaryTree-2.png)
 
 
 - Right Child
-
+> -. The value of a right child must be greater than or equal to the value of its parent.  
+>  
 > ![right](https://koenig-media.raywenderlich.com/uploads/2016/08/BinaryTree-2-1.png)
 
+### ㅇ Traversal algorithms
+- In-order traversal
 
-## ㅁ Implementation in Swift
-- Value Semantics : 바이너리 트리는 value type이 더 적합. 이번 예시는 enum type으로 작성
-- States : 바이너리 트리는 빈 상태와 왼쪽/오른쪽 노드로 구성
+![in-order traversal](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/BinarySearchTree/image/in-order.png)
+> // 0 - 1 - 5 - 7 - 8 - 9
+> 
+>In-order raversal visits the nodes of a binary tree in the following order, starting from the root node. 
+>  
+> - If the current node has a left child, recursively visit this child first.  
+> - Then visit the node itself.  
+> - If the current node has a right child, recursively visit this child.  
 
-```swift
-indirect enum BinaryTree<T> {
-  case empty
-  case node(BinaryTree, T, BinaryTree) // 재귀 열거형(recursive enum)
-}
-```
 
-- Indirection : 열거형은 value type이라서 메모리 할당시, 할당할 메모리의 양을 정확히 알아야 함. 하지만 위 열거형의 경우, 재귀값 유형이기 때문에 size를 결정할 수 없음.
+- Pre-order traversal
+
+![pre-order traversal](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/BinarySearchTree/image/pre-order.png)
+> // 7 - 1 - 0 - 5 - 9 - 8   
+> 
+>Pre-order traversal always visits the current node first, then recursively visits the left and right child.  
+
+- Post-order traversal
+
+![pre-order traversal](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/BinarySearchTree/image/post-order.png)
+> // 0 - 5 - 1 - 8 - 9 - 7
+> 
+>Post-order traversal only visits the current node after the left and right child have been visited recursively. In other words, given any node, you’ll visit its children before visiting itself. An interesting consequence of this is that the root node is always visited last.
+
+<br>
+
+## ㅁ Binary Search Trees (BST)
+- BST is a data structures that facilitates fast lookup, addition, and removal operations.
+- average complexity : O(log n).  
+  -. BST is considerably faster than linear data structures such as arrays and linked lists.  
+
+### ㅇ Removing elements
+- Case 1. Leaf node
+
+- Case 2. Nodes with one child
+> -. Reconnect that one child with the rest of the tree
+
+- Case 3. Nodes with two children
+> -. There are two child nodes to reconnect, but the parent node only has space for one child.   
+> -. Replace the node you removed with smallest node in its right subtree.   
+> -. Base on the rules of the BST, this is the **leftmost** node of the right subtree.
+
+
+
 
 <br>
 
 ## ㅁ Source
 - [Raywenderlich - Swift Algorithm Club: Swift Binary Search Tree Data Structure](https://www.raywenderlich.com/139821/swift-algorithm-club-swift-binary-search-tree-data-structure)
+
+-------------------------------------------
 
 ## Etc
 #### - private(set): 

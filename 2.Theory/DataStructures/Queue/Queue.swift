@@ -61,7 +61,7 @@ public class QueueLinkedList<T>: Queue {
   @discardableResult
   public func dequeue() -> T? {
     guard !list.isEmpty,
-    let element = list.first else { return nil } // 왜 때문에 2번 체크? guard let element ~ 만 해도 될텐디..
+    let element = list.first else { return nil }
 
     return list.remove(element)
   }
