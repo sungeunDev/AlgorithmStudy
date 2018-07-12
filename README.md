@@ -39,17 +39,6 @@
     -. [2018-05-31](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180531.md)
 
 
-- **4th Week**
-
-- **Etc**
-    - Solved Algorithm 
-    
-    > | Index | Problem Title | Category | Number of Problems | Time |
-    > | :--- | :--- | :--- | :--- | :--- |
-    > | 0 | [ZigZag](https://github.com/sungeunDev/AlgorithmStudy/tree/master/1.SolvedAlgorithm/0.ZigZag) | Coding Test | 3 | 3 hours |
-
-
-
 ## Theory
 
 ### Data Structure
