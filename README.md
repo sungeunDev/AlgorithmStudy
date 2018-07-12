@@ -50,7 +50,7 @@
     + [Queue](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/Queue/Queue.swift)
 - Lists
     + [Linked List](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/LinkedList/LinkedList.swift)
-    + [Double Linked List]((https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/LinkedList/DoublyLinkedList.swift)
+    + [Double Linked List](https://github.com/sungeunDev/AlgorithmStudy/blob/master/2.Theory/DataStructures/LinkedList/DoublyLinkedList.swift)
 - Trees
     + [Tree](https://github.com/sungeunDev/AlgorithmStudy/tree/master/2.Theory/DataStructures/Tree)
     + Binary Tree
