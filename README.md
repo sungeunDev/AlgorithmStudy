@@ -1,9 +1,17 @@
 # AlgorithmStudy
+: 데이터 구조와 알고리즘을 공부합니다.
+
+- 알고리즘 사이트: 해커랭크(https://www.hackerrank.com/starfg62)
+
+<br>
+
 ## Contents
-- History
+- Algorithm History
 - Theory
 
-## History
+<br>
+
+## Algorithm History
 - **1st Week**
     - Study Note  
     -. [2018-05-15](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180515.md)  
@@ -38,6 +46,7 @@
     -. [2018-05-29](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180529.md)  
     -. [2018-05-31](https://github.com/sungeunDev/AlgorithmStudy/blob/master/0.DailyStudyNote/180531.md)
 
+<br>
 
 ## Theory
 
